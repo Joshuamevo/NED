@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NED.Studio </title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #020617, var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      background: rgba(2,6,23,0.85);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid #1f2937;
+    }
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav h1 { color: #fff; }
+    nav ul { list-style: none; display: flex; gap: 20px; }
+    nav a { color: var(--muted); text-decoration: none; }
+    nav a:hover { color: #fff; }
+
+    .hero {
+      max-width: 1100px;
+      margin: 80px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 15px; }
+    .hero p { color: var(--muted); margin-bottom: 20px; }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #1f2937;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 80px auto;
+      padding: 0 20px;
+    }
+    section h3 { font-size: 1.8rem; margin-bottom: 20px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 1px solid #1f2937;
+      color: var(--muted);
+    }
+
+    form {
+      display: grid;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #1f2937;
+      background: #020617;
+      color: var(--text);
+    }
+    button {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      background: var(--primary);
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { opacity: 0.9; }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+    }	
+   </style>
+   <h1> Music Hub</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="music.html">Music </a>
+    <a href="artists.html">Artists </a>
+    <a href="contact.html">Contact</a>
+   <a href="about.html">About </a>
+   <a href="music hub.html">Music Hub </a>
+   </nav>
+</body>
+<video controls="" autoplay="" name="media"><source src="file:///C:/Users/JOSHISRAE/Videos/EXTREMELXJOSHUA%20Mix%20with%20NED.Studios%20with%20JOSHUAMEVO14INCORPORATED.mp4" type="video/mp4"></video>
+</div>
+<div style="width: 10%; height: 10%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M11 2.766v10.99a4.5 4.5 0 101.994 3.976L13 17.5V9.2l5.485 3.292A1 1 0 0020 11.634V6.966a1 1 0 00-.485-.857l-7-4.2A1 1 0 0011 2.766Zm2 4.102V4.533l5 3v2.335l-5-3ZM8.5 15a2.5 2.5 0 110 5.001A2.5 2.5 0 018.5 15Z"></path></svg></div>
+<div id="video-preview" class="style-scope ytd-app"><ytd-video-preview class="style-scope ytd-app" hidden="" hide-player-controls="" rounded-corners-large="" mini-guide-visible=""><!--css-build:shady--><!--css_build_scope:ytd-video-preview--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id="video-preview-container" class="style-scope ytd-video-preview">
+  <div id="media-container" class="style-scope ytd-video-preview">
+    <a id="media-container-link" class="yt-simple-endpoint style-scope ytd-video-preview">
+      <div id="thumbnail-container" class="style-scope ytd-video-preview">
+        <ytd-thumbnail hovered="false" no-rounded-corners="" object-fit="COVER" rich-grid-thumbnail="" width="9999" class="style-scope ytd-video-preview" size="large" computed-object-fit="COVER"><!--css-build:shady--><!--css_build_scope:ytd-thumbnail--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="thumbnail" class="yt-simple-endpoint inline-block style-scope ytd-thumbnail" aria-hidden="true" tabindex="-1">
+  <yt-image alt="" ftl-eligible="" notify-on-loaded="" notify-on-unloaded="" class="style-scope ytd-thumbnail">
+  </yt-image>
+  
+  <div id="overlays" class="style-scope ytd-thumbnail"></div>
+  <div id="mouseover-overlay" class="style-scope ytd-thumbnail"></div>
+  <div id="hover-overlays" class="style-scope ytd-thumbnail"></div>
+</a>
+</ytd-thumbnail>
+      </div>
+      <div id="player-container-wrapper" class="style-scope ytd-video-preview">
+        <div id="player-container" class="style-scope ytd-video-preview">
+          <ytd-player id="inline-player" context="WEB_PLAYER_CONTEXT_CONFIG_ID_KEVLAR_INLINE_PREVIEW" class="style-scope ytd-video-preview" style="touch-action: pan-down;"><!--css-build:shady--><!--css_build_scope:ytd-player--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><div id="container" class="style-scope ytd-player">
+  
+</div>
+</ytd-player>
+        </div>
+      </div>
+      <div id="overlays" class="style-scope ytd-video-preview"></div>
+    </a>
+    <div id="player-controls" class="style-scope ytd-video-preview">
+      
+        <yt-inline-player-controls class="style-scope ytd-video-preview"></yt-inline-player-controls>
+      <dom-if if="[[!!playerControlsData]]" class="style-scope ytd-video-preview"><template is="dom-if"></template></dom-if>
+    </div>
+  </div>
+</div>
+</ytd-video-preview></div>
+</html>
